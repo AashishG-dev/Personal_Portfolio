@@ -1,55 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aashish Gupta - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio_demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-<header>
-    <h1>Aashish Gupta</h1>
-</header>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="left"><a href="/">Lord Itachi</a></div>
+      <div class="right">
+        <a href="https://github.com/AashishG-dev" target="_blank" rel="noopener noreferrer"
+          ><i class="fa-brands fa-github"></i>
+          <span >Github</span>
+        </a>
+        <a href="https://www.linkedin.com/in/aashish-gupta-a503912b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"
+          ><i class="fa-brands fa-linkedin"></i>
+          <span >Linkedin</span></a>
+        <a href="/"><i class="fa-solid fa-envelope"></i>
+          <span >Email</span></a></div>
+    </nav>
 
+    <main>
+      <section class="hero-section">
+        <div class="text">
+        <p><h2>Hi I am LORD ITACHI</h2>
+           A skilled strategist and shinobi dedicated to peace through sacrifice. With unmatched Sharingan abilities and tactical foresight, I made difficult choices to protect the greater good. I value intelligence, discipline, and loyalty, and I operate with calm precision—even in the most complex, high-stakes situations.</p>
+      
+      <div class="links">
+        <a href="#skills">
+          <i class="fa-solid fa-code"></i>
+          <span>Skills</span>
+        </a>
+        <a href="#testimony">
+          <i class="fa-solid fa-pen"></i>
+          <span>Testimony</span>
+        </a>
+        <a href="#contacts">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Contacts</span>
+        </a>
+        </div>
+      </div>
+    <div class="headshot"><div class="img-box"><img src="/image/headshot1-removebg-preview.png"></div></div></section>
 
+      <section id="skills" class="skills-section">
+        <div class="text">
+          <h2>Skills</h2>
+          <p>Exceptional in strategic planning, genjutsu mastery, intelligence gathering, and high-stakes decision-making. Skilled in stealth operations, leadership under pressure, advanced combat, and long-term vision with unwavering loyalty to mission and purpose</p>
+        </div>
+        <div class="cells">
+        <div class="cell"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+        <div class="cell"><i class="fa-brands fa-css3"></i><span>CSS</span></div>
+        <div class="cell"><i class="fa-brands fa-js"></i></i><span>Java Script</span></div>
+        <div class="cell"><i class="fa-solid fa-database"></i><span>MongoDB</span></div>
+          </div>
+      </section>
 
+    <!-- faili hui baante Testimonials Section -->
+<section id="testimony" class="testimony-section">
+  <h2>What People Say</h2>
+  <div class="testimony-cards">
+    <div class="card">
+      <p>“Itachi’s work is like Genjutsu — stunning and mind-blowing.”</p>
+      <span>- Naruto Uzumaki</span>
+    </div>
+    <div class="card">
+      <p>“His code is clean, elegant, and faster than my Chidori.”</p>
+      <span>- Sasuke Uchiha</span>
+    </div>
+    <div class="card">
+      <p>“I’d hire him for the Akatsuki web team. Period.”</p>
+      <span>- Pain (Nagato)</span>
+    </div>
+  </div>
+</section>
 
-    <section id="about-me">
-        <h2>About Me</h2>
-        <p>
-            Hi, I’m Aashish Gupta! I’m passionate about AI, Machine Learning, and ethical hacking. I’m currently learning various skills and working on developing a deep understanding of technology and programming. My goal is to leverage my skills to build innovative solutions and create meaningful impact.
-        </p>
-    </section>
+<!-- Contact Section -->
+<section id="contacts" class="contact-section">
+  <h2>Contact Lord Itachi</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
 
-    <section id="skills-interests">
-    <h2>Skills & Interests</h2>
-    <p>As a Computer Science student, I have developed a strong foundation in various programming languages and technologies. My skills include:</p>
-    <ul>
-        <li><strong>Python:</strong> Proficient in scripting</li>
-        <li><strong>C++:</strong> Experienced in object-oriented programming and algorithm design.</li>
-        <li><strong>Java:</strong> Knowledgeable in building scalable applications and understanding core concepts.</li>
-        <li><strong>HTML & CSS:</strong> Skilled in creating and styling responsive web pages.</li>
-        <li><strong>JavaScript:</strong> Experienced in adding interactivity and functionality to websites.</li>
-    </ul>
-  
-
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <h3>Project 1: Personal Portfolio Website</h3>
-        <p>A simple portfolio website to showcase my skills and projects.</p>
-        <a href="https://aashishg-dev.github.io/Personal_Portfolio/">View Project</a>
-    </section>
-
-    <section id="contact-info">
-        <h2>Contact Information</h2>
-        <p>Email: hellogmaihu@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourname">LinkedIn Profile</a></p>
-        <p>GitHub: <a href="https://github.com/AashishG-dev">GitHub Profile</a></p>
-    </section>
-<<script src="script.js">script.js</script>
-</body>
+    </main>
+  </body>
 </html>
